@@ -11,9 +11,10 @@ import {Recipe} from '../recipe';
 export class RecipesComponent implements OnInit
 {
   recipes = RECIPES;
-  onSelect(recipe: Recipe): void { this.selectedRecipe = recipe; }
+  selectedRecipe: Recipe;
 
   constructor() {}
 
   ngOnInit() {}
+  onSelect(recipe: Recipe): void { this.selectedRecipe = recipe; }
 }
