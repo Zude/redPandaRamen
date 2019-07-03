@@ -1,4 +1,6 @@
 import {Component, OnInit} from '@angular/core';
+
+import {RECIPES} from '../mock-recipes';
 import {Recipe} from '../recipe';
 
 @Component({
@@ -8,8 +10,8 @@ import {Recipe} from '../recipe';
 })
 export class RecipesComponent implements OnInit
 {
-
-  recipe: Recipe = { id : 1, name: 'Rammurry' };
+  recipes = RECIPES;
+  onSelect(recipe: Recipe): void { this.selectedRecipe = recipe; }
 
   constructor() {}
 
