@@ -7,9 +7,10 @@ import {AppComponent} from './app.component';
 import {RecipeDetailComponent} from './recipe-detail/recipe-detail.component';
 import {RecipesComponent} from './recipes/recipes.component';
 import { MessagesComponent } from './messages/messages.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
 
 @NgModule({
-  declarations : [ AppComponent, RecipesComponent, RecipeDetailComponent, MessagesComponent ],
+  declarations : [ AppComponent, RecipesComponent, RecipeDetailComponent, MessagesComponent, DashboardComponent ],
   imports : [ BrowserModule, FormsModule, AppRoutingModule ],
   providers : [],
   bootstrap : [ AppComponent ]
