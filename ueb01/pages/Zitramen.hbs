@@ -1,0 +1,51 @@
+ {
+"title": "Detailansicht",
+"template": "full-html",
+"name": "Detailansicht"
+}
+---
+<div class="detailSite">
+
+  <div class="detailContainer">
+
+    <div class="recpNameDet"> {{global.rezepte.[6].rezeptName}} </div>
+    <div class="recpTeaserDet"> {{global.rezepte.[6].rezeptTeaser}} </div>
+    <img class="recpImgDet" src="assets/{{global.rezepte.[6].rezeptName}}.jpg"
+      alt="product-picture">
+    <div class="detInfoContainer">
+
+      <div class="detailList">
+        <h3>
+          Infos:
+        </h3>
+        <ul>
+          <li> Portionen: {{global.rezepte.[6].rezeptPortionen}}</li>
+          <li> Tags: <ul>
+              {{#each global.rezepte.[6].rezeptTags}}
+              <li>{{this}}</li>
+              {{/each}}
+            </ul></li>
+          <li> Kategorien: <ul>
+              {{#each global.rezepte.[6].rezeptKategorien}}
+              <li>
+                {{this}}
+              </li>
+              {{/each}}
+            </ul></li>
+        </ul>
+      </div>
+      <div class="detailList">
+        <h3>Zutaten:</h3>
+        <ul>
+          {{#each global.rezepte.[6].rezeptZutaten}}
+          <li>{{this}}</li>
+          {{/each}}
+        </ul>
+      </div>
+      <div class="detailList">
+        <h3>Anleitung:</h3>
+        <p>{{global.rezepte.[6].rezeptAnleitung}}</p>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,23 @@
+<div class="recpSiteB">
+  <a href="{{global.links.[1].ressource}}">Kacheldarstellung</a>
+  {{#each global.rezepte}}
+  <div class="recpBoardB"
+    onclick="window.open('{{this.rezeptName}}');">
+    <img class="recpImgB" src="assets/{{this.rezeptName}}.jpg"
+      alt="product-picture">
+    <div class="listBlock">
+      <h2 class="recpNameB"> {{this.rezeptName}} </h2>
+      <div class="recpTeaserB"> {{this.rezeptTeaser}} </div>
+      <br><br>
+      <h3>Tags:</h3>
+      {{#each this.rezeptTags}}
+      <div class="recpTagB"> {{this}}</div>
+      {{/each}}
+      <h3>Kategorien:</h3>
+      {{#each this.rezeptKategorien}}
+      <div class="recpTagB"> {{this}}</div>
+      {{/each}}
+    </div>
+  </div>
+  {{/each}}
+</div>

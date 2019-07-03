@@ -1,0 +1,38 @@
+<!-- Search function -->
+<div class="formTag">
+<form method="post" action="searchFunktion">
+  Suche: <input type="text" name="search" placeholder="Suchbegriff">
+  Rezeptname: <input type="checkbox" name="rezeptname" value="name" checked></label>
+  Zutaten: <input type="checkbox" name="zutaten" value="zutat"></label>
+  Kategorien: <input type="checkbox" name="kategorien" value="kategorie"></label>
+  Tags: <input type="checkbox" name="tags" value="tag"></label>
+  <input class="submit" type="submit" value="Suchanfrage absenden" /></label>
+  <input type="hidden" name="page" value="rezepte">
+</form>
+</div>
+
+<div class="recpSiteB">
+  <a href="{{global.links.[1].ressource}}">Kacheldarstellung</a>
+  {{#each page.recipe}}
+  <div class="recpBoardB search"
+    onclick="location.href='http://localhost:8080/details?dts={{rezeptName}}';">
+    <img class="recpImgB" src="assets/{{rezeptName}}.jpg"
+      alt="product-picture">
+    <div class="listBlock">
+      <h2 class="recpNameB"> {{rezeptName}} </h2>
+      <div class="recpTeaserB"> {{rezeptTeaser}} </div>
+      <br><br>
+      <h3>Tags:</h3>
+      {{#each rezeptTags}}
+      <div class="recpTagB"> {{this}}</div>
+      {{/each}}
+      <h3>Kategorien:</h3>
+      {{#each rezeptKategorien}}
+      <div class="recpTagB"> {{this}}</div>
+      {{/each}}
+    </div>
+  </div>
+  {{/each}}
+</div>
+
+

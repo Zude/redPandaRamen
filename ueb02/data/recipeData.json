@@ -1,0 +1,291 @@
+[{
+	"rezeptName": "Ramelen",
+	"rezeptBeschreibung": "Ramen mit Garnelen",
+	"rezeptTeaser": "Das Herz des Meeres",
+	"rezeptTags": ["asiatisch", "Karotten", "Herbst"],
+	"rezeptKategorien": ["schwer", "fruehstueck"],
+	"rezeptPortionen": 4,
+	"rezeptZutaten": [{
+		"zutatenName": "Milch",
+		"zutatenMenge": 120,
+		"zutatenEinheit": "ml"
+	}, {
+		"zutatenName": "Nudeln",
+		"zutatenMenge": 600,
+		"zutatenEinheit": "g"
+	}, {
+		"zutatenName": "Obers",
+		"zutatenMenge": 45,
+		"zutatenEinheit": "ml"
+	}, {
+		"zutatenName": "Eier",
+		"zutatenMenge": 3
+	}],
+	"Naehrwertangaben": {
+		"Fett": 16,
+		"Kohlenhydrat": 65,
+		"Eiweiss": 19
+	},
+	"rezeptAnleitung": "Die Knoblauchzehe schaelen und anschliessend mit der flachen Seite eines grossen Messers andruecken, damit sie ihr volles Aroma entfaltet. Den Ingwer mit einem Loeffel von der Schale befreien. Beides zusammen mit Pfeffer, den geputzten Pilzen, den geschnittenen Moehren und Pak-Choi in die Dashi-Bruehe hineingeben. Die Bruehe etwa fuer 5 Minuten koecheln lassen."
+}, {
+	"rezeptName": "RamoBo",
+	"rezeptBeschreibung": "Ramen mit frischen Kraeutern",
+	"rezeptTeaser": "Der Himmel der Limetten",
+	"rezeptTags": ["Koriander", "Mitagessen", "Rinderfilet"],
+	"rezeptKategorien": ["schwer", "Abend"],
+	"rezeptPortionen": 4,
+	"rezeptZutaten": [{
+		"zutatenName": "Milch",
+		"zutatenMenge": 60,
+		"zutatenEinheit": "ml"
+	}, {
+		"zutatenName": "Nudeln",
+		"zutatenMenge": 400,
+		"zutatenEinheit": "g"
+	}, {
+		"zutatenName": "Obers",
+		"zutatenMenge": 50,
+		"zutatenEinheit": "ml"
+	}, {
+		"zutatenName": "Eier",
+		"zutatenMenge": 4
+	}],
+	"Naehrwertangaben": {
+		"Fett": 16,
+		"Kohlenhydrat": 65,
+		"Eiweiss": 35
+	},
+	"rezeptAnleitung": "Sesamoel und Sonnenblumenoel in einem Topf erhitzen. Schalotten, Ingwer, Knoblauch, Zimt, Kardamom, Sternanis in den Topf geben und ca. 2-3 Minuten anschwitzen. Zucker zugeben und etwas karamellisieren lassen. Mit Bruehe abloeschen und ca. 10-15 Minuten koecheln lassen. Danach mit Sojasosse abschmecken."
+}, {
+	"rezeptName": "Ramurry",
+	"rezeptBeschreibung": "mit gelbem oder gruenem Curry",
+	"rezeptTeaser": "Das gruende Wunder",
+	"rezeptTags": ["kurukuma", "Fruehling", "indisch"],
+	"rezeptKategorien": ["leicht", "mittel", "schwer", "fruehstueck", "mittag", "Abend"],
+	"rezeptPortionen": 4,
+	"rezeptZutaten": [{
+		"zutatenName": "Milch",
+		"zutatenMenge": 50,
+		"zutatenEinheit": "ml"
+	}, {
+		"zutatenName": "Nudeln",
+		"zutatenMenge": 400,
+		"zutatenEinheit": "g"
+	}, {
+		"zutatenName": "Obers",
+		"zutatenMenge": 60,
+		"zutatenEinheit": "ml"
+	}, {
+		"zutatenName": "Eier",
+		"zutatenMenge": 3
+	}],
+	"Naehrwertangaben": {
+		"Fett": 20,
+		"Kohlenhydrat": 60,
+		"Eiweiss": 20
+	},
+	"rezeptAnleitung": "Chili putzen, waschen und in feine Ringe schneiden. Zitronengras und Ingwer fein hacken. Chili, Zitronengras, Ingwer, Zimt, 3 Kardamomkapseln, Koriandersaat, Kurkuma und 1 EL oeL in einem Moerser zu einer Paste verarbeiten."
+}, {
+	"rezeptName": "Ramurger",
+	"rezeptBeschreibung": "mit Sesambroetchen auf Hackfleisch",
+	"rezeptTeaser": "Besser als Jim Block",
+	"rezeptTags": ["Tomaten", "Fleisch", "Japanisch"],
+	"rezeptKategorien": ["leicht", "mittag"],
+	"rezeptPortionen": 2,
+	"rezeptZutaten": [{
+		"zutatenName": "Milch",
+		"zutatenMenge": 80,
+		"zutatenEinheit": "ml"
+	}, {
+		"zutatenName": "Nudeln",
+		"zutatenMenge": 500,
+		"zutatenEinheit": "g"
+	}, {
+		"zutatenName": "Obers",
+		"zutatenMenge": 60,
+		"zutatenEinheit": "ml"
+	}, {
+		"zutatenName": "Eier",
+		"zutatenMenge": 3
+	}],
+	"Naehrwertangaben": {
+		"Fett": 28,
+		"Kohlenhydrat": 50,
+		"Eiweiss": 22
+	},
+	"rezeptAnleitung": "Fuer die Mayonnaise die Avocado mit einem Messer bis zum Kern einschneiden. Die Fruchthaelften gegeneinander drehen, bis sich eine Haelfte abheben laesst. Den Kern herausnehmen, eventuell behutsam mit dem Messer loesen. Das Fruchtfleisch mit einem Loeffel loesen und aus der Schale heben. Avocadofruchtfleisch mit dem Limettensaft in einen Mixer fuellen und fein puerieren. In eine Schuessel umfuellen. Mayonnaise, Salz, Pfeffer, Cayennepfeffer und Koriander unterruehren."
+}, {
+	"rezeptName": "Ramuppe",
+	"rezeptBeschreibung": "eine dampfende asiatische Nudelsuppe",
+	"rezeptTeaser": "Die Niere der asiatischen Kueche",
+	"rezeptTags": ["asiatisch", "Sojasauce", "Gemuese"],
+	"rezeptKategorien": ["mittel", "fruehstueck"],
+	"rezeptPortionen": 4,
+	"rezeptZutaten": [{
+		"zutatenName": "Milch",
+		"zutatenMenge": 70,
+		"zutatenEinheit": "ml"
+	}, {
+		"zutatenName": "Nudeln",
+		"zutatenMenge": 450,
+		"zutatenEinheit": "g"
+	}, {
+		"zutatenName": "Obers",
+		"zutatenMenge": 50,
+		"zutatenEinheit": "ml"
+	}, {
+		"zutatenName": "Eier",
+		"zutatenMenge": 2
+	}],
+	"Naehrwertangaben": {
+		"Fett": 23,
+		"Kohlenhydrat": 60,
+		"Eiweiss": 17
+	},
+	"rezeptAnleitung": "Fruehlingszwiebeln putzen und in Ringe schneiden. Chilischote laengs halbieren, Stielansatz und Scheidewaende entfernen und fein wuerfeln. Knoblauchzehe schaelen und fein hacken. Zitronengras putzen und fein schneiden. Haehnchenfilet in Scheiben schneiden. Chinakohl putzen, waschen und in Streifen schneiden."
+}, {
+	"rezeptName": "UltraRamen",
+	"rezeptBeschreibung": "Udon mit zartem Hackfleisch",
+	"rezeptTeaser": "Das superlativ der Ramen",
+	"rezeptTags": ["japanisch", "Gefluegel", "Paprika"],
+	"rezeptKategorien": ["leicht", "Abend"],
+	"rezeptPortionen": 4,
+	"rezeptZutaten": [{
+		"zutatenName": "Milch",
+		"zutatenMenge": 65,
+		"zutatenEinheit": "ml"
+	}, {
+		"zutatenName": "Nudeln",
+		"zutatenMenge": 400,
+		"zutatenEinheit": "g"
+	}, {
+		"zutatenName": "Obers",
+		"zutatenMenge": 40,
+		"zutatenEinheit": "ml"
+	}, {
+		"zutatenName": "Eier",
+		"zutatenMenge": 5
+	}],
+	"Naehrwertangaben": {
+		"Fett": 25,
+		"Kohlenhydrat": 54,
+		"Eiweiss": 21
+	},
+	"rezeptAnleitung": "Das Haehnchenbrustfilet kurz unter fliessendem kalten Wasser abspuelen, mit Kuechenpapier trocken tupfen und in Streifen schneiden. Paprikaschote, Pilze und Fruehlingszwiebeln waschen bzw. putzen. Paprika und Pilze in Streifen, Fruehlingszwiebeln in Ringe schneiden. Die Sprossen auf ein Sieb geben, kurz waschen und abtropfen lassen. Die Knoblauchzehen und den Ingwer schaelen und fein hacken. Vom Basilikum die Blaettchen abzupfen, kurz waschen und auf Kuechenpapier abtropfen lassen."
+}, {
+	"rezeptName": "Zitramen",
+	"rezeptBeschreibung": "mit frischer Schaerfe vom Zitronengras",
+	"rezeptTeaser": "das Gericht was Cercei liebt",
+	"rezeptTags": ["scharf", "Zitronen", "Suppe"],
+	"rezeptKategorien": ["schwer", "fruehstueck"],
+	"rezeptPortionen": 4,
+	"rezeptZutaten": [{
+		"zutatenName": "Milch",
+		"zutatenMenge": 40,
+		"zutatenEinheit": "ml"
+	}, {
+		"zutatenName": "Nudeln",
+		"zutatenMenge": 500,
+		"zutatenEinheit": "g"
+	}, {
+		"zutatenName": "Obers",
+		"zutatenMenge": 45,
+		"zutatenEinheit": "ml"
+	}, {
+		"zutatenName": "Eier",
+		"zutatenMenge": 4
+	}],
+	"Naehrwertangaben": {
+		"Fett": 7,
+		"Kohlenhydrat": 82,
+		"Eiweiss": 11
+	},
+	"rezeptAnleitung": "Die Knoblauchzehe schaelen und anschliessend mit der flachen Seite eines grossen Messers andruecken, damit sie ihr volles Aroma entfaltet. Den Ingwer mit einem Loeffel von der Schale befreien. Beides zusammen mit Pfeffer, den geputzten Pilzen, den geschnittenen Moehren und Pak-Choi in die Dashi-Bruehe hineingeben. Die Bruehe etwa fuer 5 Minuten koecheln lassen."
+}, {
+	"rezeptName": "Ramende",
+	"rezeptBeschreibung": "mit Huenhnerbruehe und Lende",
+	"rezeptTeaser": "Die Suche nach gutem Essen ist hier zu Ende",
+	"rezeptTags": ["Eier", "Nudeln", "Suppe"],
+	"rezeptKategorien": ["leicht", "Abend"],
+	"rezeptPortionen": 3,
+	"rezeptZutaten": [{
+		"zutatenName": "Milch",
+		"zutatenMenge": 90,
+		"zutatenEinheit": "ml"
+	}, {
+		"zutatenName": "Nudeln",
+		"zutatenMenge": 500,
+		"zutatenEinheit": "g"
+	}, {
+		"zutatenName": "Gruenzeug",
+		"zutatenMenge": 50,
+		"zutatenEinheit": "ml"
+	}, {
+		"zutatenName": "Eier",
+		"zutatenMenge": 4
+	}],
+	"Naehrwertangaben": {
+		"Fett": 20,
+		"Kohlenhydrat": 44,
+		"Eiweiss": 36
+	},
+	"rezeptAnleitung": "Sesamoel und Sonnenblumenoel in einem Topf erhitzen. Schalotten, Ingwer, Knoblauch, Zimt, Kardamom, Sternanis in den Topf geben und ca. 2-3 Minuten anschwitzen. Zucker zugeben und etwas karamellisieren lassen. Mit Bruehe abloeschen und ca. 10-15 Minuten koecheln lassen. Danach mit Sojasosse abschmecken."
+}, {
+	"rezeptName": "Ramoldino",
+	"rezeptBeschreibung": "Ramen der sich im Ramen haelt",
+	"rezeptTeaser": "Das Herz liegt hier auf der Zunge",
+	"rezeptTags": ["Gefluegel", "Gemuese", "Fruehling"],
+	"rezeptKategorien": ["schwer", "Abend"],
+	"rezeptPortionen": 2,
+	"rezeptZutaten": [{
+		"zutatenName": "Milch",
+		"zutatenMenge": 100,
+		"zutatenEinheit": "ml"
+	}, {
+		"zutatenName": "Nudeln",
+		"zutatenMenge": 300,
+		"zutatenEinheit": "g"
+	}, {
+		"zutatenName": "Obers",
+		"zutatenMenge": 60,
+		"zutatenEinheit": "ml"
+	}, {
+		"zutatenName": "Eier",
+		"zutatenMenge": 3
+	}],
+	"Naehrwertangaben": {
+		"Fett": 18,
+		"Kohlenhydrat": 64,
+		"Eiweiss": 18
+	},
+	"rezeptAnleitung": "Fuer die Mayonnaise die Avocado mit einem Messer bis zum Kern einschneiden. Die Fruchthaelften gegeneinander drehen, bis sich eine Haelfte abheben laesst. Den Kern herausnehmen, eventuell behutsam mit dem Messer loesen. Das Fruchtfleisch mit einem Loeffel loesen und aus der Schale heben. Avocadofruchtfleisch mit dem Limettensaft in einen Mixer fuellen und fein puerieren. In eine Schuessel umfuellen. Mayonnaise, Salz, Pfeffer, Cayennepfeffer und Koriander unterruehren."
+}, {
+	"rezeptName": "Rameeren",
+	"rezeptBeschreibung": "mit frischen ausersehenen Erdebeeren",
+	"rezeptTeaser": "Die rote Lust wird enfacht",
+	"rezeptTags": ["Erdbeeren", "Tomaten", "Sommer"],
+	"rezeptKategorien": ["mittel", "Abend"],
+	"rezeptPortionen": 4,
+	"rezeptZutaten": [{
+		"zutatenName": "Milch",
+		"zutatenMenge": 100,
+		"zutatenEinheit": "ml"
+	}, {
+		"zutatenName": "Nudeln",
+		"zutatenMenge": 400,
+		"zutatenEinheit": "g"
+	}, {
+		"zutatenName": "Obers",
+		"zutatenMenge": 50,
+		"zutatenEinheit": "ml"
+	}, {
+		"zutatenName": "Eier",
+		"zutatenMenge": 5
+	}],
+	"Naehrwertangaben": {
+		"Fett": 9,
+		"Kohlenhydrat": 82,
+		"Eiweiss": 19
+	},
+	"rezeptAnleitung": "Fruehlingszwiebeln putzen und in Ringe schneiden. Chilischote laengs halbieren, Stielansatz und Scheidewaende entfernen und fein wuerfeln. Knoblauchzehe schaelen und fein hacken. Zitronengras putzen und fein schneiden. Haehnchenfilet in Scheiben schneiden. Chinakohl putzen, waschen und in Streifen schneiden."
+}]

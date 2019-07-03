@@ -1,0 +1,21 @@
+{
+  "title": "Red Panda Ramen",
+  "style": "assets/main.css",
+  "links": [{
+      "name": "Startseite",
+      "ressource": "/"
+    },
+    {
+      "name": "Rezepte",
+      "ressource": "rezepte"
+    },
+    {
+      "name": "Einkaufsliste",
+      "ressource": "einkaufsliste"
+    },
+    {
+      "name": "Impressum",
+      "ressource": "impressum"
+    }
+  ]
+}

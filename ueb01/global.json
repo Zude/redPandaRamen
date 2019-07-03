@@ -1,0 +1,119 @@
+{
+  "title": "Red Panda Ramen",
+  "style": "assets/main.css",
+  "links": [{
+      "name": "Startseite",
+      "ressource": "/"
+    },
+    {
+      "name": "Rezepte",
+      "ressource": "rezepte"
+    },
+    {
+      "name": "Einkaufsliste",
+      "ressource": "einkaufsliste"
+    },
+    {
+      "name": "Impressum",
+      "ressource": "impressum"
+    }
+  ],
+
+  "rezepte": [{
+      "rezeptName": "Ramelen",
+      "rezeptBeschreibung": "Ramen mit Garnelen",
+      "rezeptTeaser": "Das Herz des Meeres",
+      "rezeptTags": ["asiatisch", "Karotten", "Herbst"],
+      "rezeptKategorien": ["schwer", "frühstück"],
+      "rezeptPortionen": "4",
+      "rezeptZutaten": ["Milch 30ml", "Nudeln 500g", "8 Riesengarnelen", "250g Pak Choi", "2 Möhre", "3 Frühlingszwiebeln", "4 Eier"],
+      "rezeptAnleitung": "Die Knoblauchzehe schälen und anschließend mit der flachen Seite eines großen Messers andrücken, damit sie ihr volles Aroma entfaltet. Den Ingwer mit einem Löffel von der Schale befreien. Beides zusammen mit Pfeffer, den geputzten Pilzen, den geschnittenen Möhren und Pak-Choi in die Dashi-Brühe hineingeben. Die Brühe etwa für 5 Minuten köcheln lassen."
+    },
+    {
+      "rezeptName": "RamoBo",
+      "rezeptBeschreibung": "Ramen mit frischen Kräutern",
+      "rezeptTeaser": "Der Himmel der Limetten",
+      "rezeptTags": ["Koriander", "Mitagessen", "Rinderfilet"],
+      "rezeptKategorien": ["schwer", "Abend"],
+      "rezeptPortionen": "4",
+      "rezeptZutaten": ["Milch 30ml", "Nudeln 500g", "8 Riesengarnelen", "250g Pak Choi", "2 Möhre", "3 Frühlingszwiebeln", "4 Eier"],
+      "rezeptAnleitung": "Sesamöl und Sonnenblumenöl in einem Topf erhitzen. Schalotten, Ingwer, Knoblauch, Zimt, Kardamom, Sternanis in den Topf geben und ca. 2-3 Minuten anschwitzen. Zucker zugeben und etwas karamellisieren lassen. Mit Brühe ablöschen und ca. 10-15 Minuten köcheln lassen. Danach mit Sojasoße abschmecken."
+    },
+    {
+      "rezeptName": "Ramurry",
+      "rezeptBeschreibung": "mit gelbem oder grünem Curry",
+      "rezeptTeaser": "Das gründe Wunder",
+      "rezeptTags": ["kurukuma", "Frühling", "indisch"],
+      "rezeptKategorien": ["leicht", "mittel", "schwer", "frühstück", "mittag", "Abend"],
+      "rezeptPortionen": "4",
+      "rezeptZutaten": ["Milch 30ml", "Nudeln 500g", "8 Riesengarnelen", "250g Pak Choi", "2 Möhre", "3 Frühlingszwiebeln", "4 Eier"],
+      "rezeptAnleitung": "Chili putzen, waschen und in feine Ringe schneiden. Zitronengras und Ingwer fein hacken. Chili, Zitronengras, Ingwer, Zimt, 3 Kardamomkapseln, Koriandersaat, Kurkuma und 1 EL ÖL in einem Mörser zu einer Paste verarbeiten."
+    },
+    {
+      "rezeptName": "Ramurger",
+      "rezeptBeschreibung": "mit Sesambrötchen auf Hackfleisch",
+      "rezeptTeaser": "Besser als Jim Block",
+      "rezeptTags": ["Tomaten", "Fleisch", "Japanisch"],
+      "rezeptKategorien": ["leicht", "mittag"],
+      "rezeptPortionen": "2",
+      "rezeptZutaten": ["Milch 30ml", "Nudeln 500g", "8 Riesengarnelen", "250g Pak Choi", "2 Möhre", "3 Frühlingszwiebeln", "4 Eier"],
+      "rezeptAnleitung": "Für die Mayonnaise die Avocado mit einem Messer bis zum Kern einschneiden. Die Fruchthälften gegeneinander drehen, bis sich eine Hälfte abheben lässt. Den Kern herausnehmen, eventuell behutsam mit dem Messer lösen. Das Fruchtfleisch mit einem Löffel lösen und aus der Schale heben. Avocadofruchtfleisch mit dem Limettensaft in einen Mixer füllen und fein pürieren. In eine Schüssel umfüllen. Mayonnaise, Salz, Pfeffer, Cayennepfeffer und Koriander unterrühren."
+    },
+    {
+      "rezeptName": "Ramuppe",
+      "rezeptBeschreibung": "eine dampfende asiatische Nudelsuppe",
+      "rezeptTeaser": "Die Niere der asiatischen Küche",
+      "rezeptTags": ["asiatisch", "Sojasauce", "Gemüse"],
+      "rezeptKategorien": ["mittel", "frühstück"],
+      "rezeptPortionen": "4",
+      "rezeptZutaten": ["Milch 30ml", "Nudeln 500g", "8 Riesengarnelen", "250g Pak Choi", "2 Möhre", "3 Frühlingszwiebeln", "4 Eier"],
+      "rezeptAnleitung": "Frühlingszwiebeln putzen und in Ringe schneiden. Chilischote längs halbieren, Stielansatz und Scheidewände entfernen und fein würfeln. Knoblauchzehe schälen und fein hacken. Zitronengras putzen und fein schneiden. Hähnchenfilet in Scheiben schneiden. Chinakohl putzen, waschen und in Streifen schneiden."
+    },
+    {
+      "rezeptName": "UltraRamen",
+      "rezeptBeschreibung": "Udon mit zartem Hackfleisch",
+      "rezeptTeaser": "Das superlativ der Ramen",
+      "rezeptTags": ["japanisch", "Geflügel", "Paprika"],
+      "rezeptKategorien": ["leicht", "Abend"],
+      "rezeptPortionen": "4",
+      "rezeptZutaten": ["Milch 30ml", "Nudeln 500g", "8 Riesengarnelen", "250g Pak Choi", "2 Möhre", "3 Frühlingszwiebeln", "4 Eier"],
+      "rezeptAnleitung": "Das Hähnchenbrustfilet kurz unter fließendem kalten Wasser abspülen, mit Küchenpapier trocken tupfen und in Streifen schneiden. Paprikaschote, Pilze und Frühlingszwiebeln waschen bzw. putzen. Paprika und Pilze in Streifen, Frühlingszwiebeln in Ringe schneiden. Die Sprossen auf ein Sieb geben, kurz waschen und abtropfen lassen. Die Knoblauchzehen und den Ingwer schälen und fein hacken. Vom Basilikum die Blättchen abzupfen, kurz waschen und auf Küchenpapier abtropfen lassen."
+    }, {
+      "rezeptName": "Zitramen",
+      "rezeptBeschreibung": "mit frischer Schärfe vom Zitronengras",
+      "rezeptTeaser": "das Gericht was Cercei liebt",
+      "rezeptTags": ["scharf", "Zitronen", "Suppe"],
+      "rezeptKategorien": ["schwer", "frühstück"],
+      "rezeptPortionen": "4",
+      "rezeptZutaten": ["Milch 30ml", "Nudeln 500g", "8 Riesengarnelen", "250g Pak Choi", "2 Möhre", "3 Frühlingszwiebeln", "4 Eier"],
+      "rezeptAnleitung": "Die Knoblauchzehe schälen und anschließend mit der flachen Seite eines großen Messers andrücken, damit sie ihr volles Aroma entfaltet. Den Ingwer mit einem Löffel von der Schale befreien. Beides zusammen mit Pfeffer, den geputzten Pilzen, den geschnittenen Möhren und Pak-Choi in die Dashi-Brühe hineingeben. Die Brühe etwa für 5 Minuten köcheln lassen."
+    }, {
+      "rezeptName": "Ramende",
+      "rezeptBeschreibung": "mit Hünhnerbrühe und Lende",
+      "rezeptTeaser": "Die Suche nach gutem Essen ist hier zu Ende",
+      "rezeptTags": ["Eier", "Nudeln", "Suppe"],
+      "rezeptKategorien": ["leicht", "Abend"],
+      "rezeptPortionen": "3",
+      "rezeptZutaten": ["Milch 30ml", "Nudeln 500g", "8 Riesengarnelen", "250g Pak Choi", "2 Möhre", "3 Frühlingszwiebeln", "4 Eier"],
+      "rezeptAnleitung": "Sesamöl und Sonnenblumenöl in einem Topf erhitzen. Schalotten, Ingwer, Knoblauch, Zimt, Kardamom, Sternanis in den Topf geben und ca. 2-3 Minuten anschwitzen. Zucker zugeben und etwas karamellisieren lassen. Mit Brühe ablöschen und ca. 10-15 Minuten köcheln lassen. Danach mit Sojasoße abschmecken."
+    }, {
+      "rezeptName": "Ramoldino",
+      "rezeptBeschreibung": "Ramen der sich im Ramen hält",
+      "rezeptTeaser": "Das Herz liegt hier auf der Zunge",
+      "rezeptTags": ["Geflügel", "Gemüse", "Frühling"],
+      "rezeptKategorien": ["schwer", "Abend"],
+      "rezeptPortionen": "2",
+      "rezeptZutaten": ["Milch 30ml", "Nudeln 500g", "8 Riesengarnelen", "250g Pak Choi", "2 Möhre", "3 Frühlingszwiebeln", "4 Eier"],
+      "rezeptAnleitung": "Für die Mayonnaise die Avocado mit einem Messer bis zum Kern einschneiden. Die Fruchthälften gegeneinander drehen, bis sich eine Hälfte abheben lässt. Den Kern herausnehmen, eventuell behutsam mit dem Messer lösen. Das Fruchtfleisch mit einem Löffel lösen und aus der Schale heben. Avocadofruchtfleisch mit dem Limettensaft in einen Mixer füllen und fein pürieren. In eine Schüssel umfüllen. Mayonnaise, Salz, Pfeffer, Cayennepfeffer und Koriander unterrühren."
+    }, {
+      "rezeptName": "Rameeren",
+      "rezeptBeschreibung": "mit frischen ausersehenen Erdebeeren",
+      "rezeptTeaser": "Die rote Lust wird enfacht",
+      "rezeptTags": ["Erdbeeren", "Tomaten", "Sommer"],
+      "rezeptKategorien": ["mittel", "Abend"],
+      "rezeptPortionen": "4",
+      "rezeptZutaten": ["Milch 30ml", "Nudeln 500g", "8 Riesengarnelen", "250g Pak Choi", "2 Möhre", "3 Frühlingszwiebeln", "4 Eier"],
+      "rezeptAnleitung": "Frühlingszwiebeln putzen und in Ringe schneiden. Chilischote längs halbieren, Stielansatz und Scheidewände entfernen und fein würfeln. Knoblauchzehe schälen und fein hacken. Zitronengras putzen und fein schneiden. Hähnchenfilet in Scheiben schneiden. Chinakohl putzen, waschen und in Streifen schneiden."
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+<div class="recpSiteA">
+  <a href="http://localhost:8080/rezeptliste">Zur Listendarstellung wechseln</a>
+  {{#each global.rezepte}}
+  <div class="recpBoard"
+    onclick="window.open('http://localhost:8080/{{this.rezeptName}}');">
+    <div class="recpName"> {{this.rezeptName}} </div>
+    <img class="recpImg" src="assets/{{this.rezeptName}}.jpg"
+      alt="product-picture">
+  </div>
+  {{/each}}
+</div>

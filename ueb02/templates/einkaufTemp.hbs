@@ -1,0 +1,55 @@
+<!-- Shopping Cart Temlate -->
+
+{{#if page.recipeBool}}
+<div class="recipeList">
+
+  <h3>Rezept Liste</h3>
+
+  <table>
+    <tr>
+      <th>Rezeptname</th>
+      <th>Portionen</th>
+      <th>Zutaten</th>
+      <th>Entfernen</th>
+    </tr>
+    {{#each page.recipeData}}
+    <tr>
+      <td>{{this.rezeptName}}</td>
+      <td>{{this.rezeptAnzahl}}x</td>
+      <td>
+        {{#each this.ingred}}
+        {{this.zutatenName}}:
+        {{this.zutatenMenge}}{{this.zutatenEinheit}}
+        <br>
+        <br>
+        {{/each}}
+      </td>
+      <td>
+        <form method="POST" action="/newCart" style="display: inline;">
+          <input type="hidden" name="nam" value="{{this.rezeptName}}"
+            />
+          <input class="delButton" type="submit" value="X">
+        </form>
+      </td>
+    </tr>
+    {{/each}}
+  </table>
+
+  <h3>Zutaten Liste Gesammt</h3>
+  <ul>
+    {{#each page.allIngreds}}
+    <li>
+      {{this.zutatenName}}:
+      {{this.zutatenMenge}}{{this.zutatenEinheit}},
+    </li>
+    {{/each}}
+  </ul>
+
+</div>
+{{else}}
+<div id="emptyRecipe">
+  <h3>Es befinden sich keine Rezepte in deiner Liste</h3>
+</div>
+{{/if}}
+
+<script src="controller/recipeListController.js"></script>
