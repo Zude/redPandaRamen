@@ -1,0 +1,121 @@
+[
+
+  {
+    "url": "/assets/*",
+    "static": "assets/*"
+  },
+
+  {
+    "url": "/",
+    "method": ["get"],
+    "controller": {
+      "file": "sliderController",
+      "function": "createElement"
+    }
+  },
+
+  {
+    "url": "/index",
+    "method": ["GET"],
+    "controller": {
+      "file": "sliderController",
+      "function": "createElement"
+    }
+  },
+  {
+    "url": "/searchFunktion",
+    "method": ["POST"],
+    "controller": {
+      "file": "searchcontroller",
+      "function": "search"
+    }
+  },
+
+
+
+  {
+    "url": "/rezepte",
+    "method": ["get"],
+    "controller": {
+      "file": "pagecontroller",
+      "function": "loadRecipeData"
+    },
+    "params": {
+      "get": ["search"]
+    }
+  },
+
+
+  {
+    "url": "/rezeptliste",
+    "method": ["get"],
+    "controller": {
+      "file": "pagecontroller",
+      "function": "loadRecipeListData"
+    },
+    "params": {
+      "get": ["search"]
+    }
+  },
+
+  {
+    "url": "/impressum",
+    "method": ["get"],
+    "page": "impressum"
+  },
+
+  {
+    "url": "/details",
+    "method": ["get"],
+    "controller": {
+      "file": "pagecontroller",
+      "function": "loadRecipeDataDetail"
+    },
+    "params": {
+      "get": ["dts"]
+    }
+  },
+  {
+    "url": "/fillToCart",
+    "method": ["POST"],
+    "controller": {
+      "file": "recipeListController",
+      "function": "fill"
+    }
+
+  },
+  {
+    "url": "/einkaufsliste",
+    "method": ["get"],
+    "controller": {
+      "file": "recipeListController",
+      "function": "loadCart"
+    }
+  },
+  {
+    "url": "/newCart",
+    "method": ["POST"],
+    "controller": {
+      "file": "recipeListController",
+      "function": "deleteRecipe"
+    }
+
+  },
+  {
+    "url": "/*",
+    "method": ["GET"],
+    "controller": {
+      "file": "sliderController",
+      "function": "createElementSiteErr"
+    }
+  },
+
+  {
+    "url": "/data",
+    "method": ["GET"],
+    "controller": {
+      "file": "pagecontroller",
+      "function": "loadjsonangular"
+    }
+  }
+]

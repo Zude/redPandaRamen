@@ -1,0 +1,25 @@
+<!-- Search function -->
+<div class="formTag">
+<form method="post" action="searchFunktion">
+  Suche: <input type="text" name="search" placeholder="Suchbegriff">
+  Rezeptname: <input type="checkbox" name="rezeptname" value="name"
+      checked></label>
+  Zutaten: <input type="checkbox" name="zutaten" value="zutat"></label>
+  Kategorien: <input type="checkbox" name="kategorien" value="kategorie"></label>
+  Tags: <input type="checkbox" name="tags" value="tag"></label>
+  <input class="submit" type="submit" value="Suchanfrage absenden" /></label>
+  <input type="hidden" name="page" value="rezepte">
+</form>
+</div>
+
+<div class="recpSiteA">
+  <a href="http://localhost:8080/rezeptliste">Zur Listendarstellung wechseln</a>
+  {{#each page.recipe}}
+  <div class="recpBoard search"
+    onclick="window.open('http://localhost:8080/details?dts={{rezeptName}}');">
+    <div class="recpName"> {{rezeptName}} </div>
+    <img class="recpImg" src="assets/{{rezeptName}}.jpg"
+      alt="product-picture">
+  </div>
+  {{/each}}
+</div>

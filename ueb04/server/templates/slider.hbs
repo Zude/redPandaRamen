@@ -1,0 +1,19 @@
+<!-- Slider template -->
+
+<!-- Fill up Page -->
+<div class="slider">
+  {{#each page.recipe}}
+  <div class="sliderElem"
+    onclick="location.href='http://localhost:8080/details?dts={{rezeptName}}';">
+    <div class="part1"> {{rezeptName}} </div>
+    <div class="part3">
+      <img class="imgu" src="assets/{{rezeptName}}.jpg" alt="product-picture">
+    </div>
+  </div>
+  {{/each}}
+</div>
+<input id="clickMe" type="button" value="Change Direction"
+  onclick="switchDirection();"
+  />
+
+<script src="assets/js/slider.js"></script>

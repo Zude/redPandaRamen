@@ -1,0 +1,91 @@
+<!-- Detail Site Temlate -->
+<div class="detailSite">
+  <div class="detailContainer">
+    <div class="recpNameDet"> {{page.recipeDet.rezeptName}} </div>
+    <div class="recpTeaserDet"> {{page.recipeDet.rezeptTeaser}} </div>
+    <img class="recpImgDet" src="assets/{{page.recipeDet.rezeptName}}.jpg"
+      alt="product-picture">
+    <div class="detInfoContainer">
+
+      <div class="detailList">
+        <h3>
+          Infos:
+        </h3>
+        <ul>
+          <li> Portionen: {{page.recipeDet.rezeptPortionen}}</li>
+          <li> Tags: <ul>
+              {{#each page.recipeDet.rezeptTags}}
+              <li>{{this}}</li>
+              {{/each}}
+            </ul>
+          </li>
+          <li> Kategorien: <ul>
+              {{#each page.recipeDet.rezeptKategorien}}
+              <li>
+                {{this}}
+              </li>
+              {{/each}}
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <div class="detailListWert">
+        <div class="naehrWert">
+          <i class="fas fa-hamburger"></i>
+          Nährwerte <br>
+          (Hover me)
+        </div>
+        <div class="hiddenWerte">
+          <div class="naehrWertTags">
+            Fett: <br><br>
+            Kohlenhydrate: <br><br>
+            Eiweiß: <br>
+          </div>
+          <div id="bar-horzontal">
+            <div class="colorBar"
+              data-width={{page.recipeDet.Naehrwertangaben.Fett}}
+              style="width:{{page.recipeDet.Naehrwertangaben.Fett}}%;">{{page.recipeDet.Naehrwertangaben.Fett}}%</div>
+            <div class="colorBar"
+              data-width={{page.recipeDet.Naehrwertangaben.Kohlenhydrat}}
+              style="width:{{page.recipeDet.Naehrwertangaben.Kohlenhydrat}}%">{{page.recipeDet.Naehrwertangaben.Kohlenhydrat}}%</div>
+            <div class="colorBar"
+              data-width={{page.recipeDet.Naehrwertangaben.Eiweiss}}
+              style="width:{{page.recipeDet.Naehrwertangaben.Eiweiss}}%">{{page.recipeDet.Naehrwertangaben.Eiweiss}}%</div>
+          </div>
+
+        </div>
+      </div>
+      <div class="detailList">
+        <h3>Zutaten:</h3>
+        <ul>
+          {{#each page.recipeDet.rezeptZutaten}}
+          <li>{{this.zutatenName}}: {{this.zutatenMenge}}
+            {{this.zutatenEinheit}}</li>
+          {{/each}}
+        </ul>
+      </div>
+      <div class="detailList">
+        <h3>Anleitung:</h3>
+        <p>{{page.recipeDet.rezeptAnleitung}}</p>
+      </div>
+    </div>
+
+    <form class="userForm" method="post" action="/fillToCart">
+      <input type="hidden" name="nam"
+        value="{{page.recipeDet.rezeptName}}" />
+      <input type="hidden" name="id" value="{{session.session-id}}" />
+      <p>
+        Amount:
+        <input id="numberInputDet" type="number" name="amount"
+          min="1"
+          step="1" value="1">
+      </p>
+      <p>
+        <input id="cartButton" type="submit" name="accept"
+          value="ADD">
+      </p>
+    </form>
+  </div>
+</div>
+
+<script src="assets/js/colorer.js"></script>
