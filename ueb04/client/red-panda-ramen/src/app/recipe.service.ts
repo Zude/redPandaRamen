@@ -45,7 +45,7 @@ const httpOptions = {
   {
     this.messageService.add(`RecipeService: ${message}`);
   }
-  private recipesUrl = '/data'; // URL to web api
+  private recipesUrl = '/api/data'; // URL to web api
 
   /**
    * Handle Http operation that failed.

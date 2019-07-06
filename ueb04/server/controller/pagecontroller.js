@@ -60,11 +60,11 @@ module.exports = {
   },
   //Controller function for opening recipeList Site and getting the recipe Data
   "loadjsonangular": function (data) {
-
+    const recipe = fhwWeb.loadJson("Recipe");
 
     return {
       status: 200,
-      json: fhweb.loadJson('recipeData')
+      json: recipe
     }
   }
 
