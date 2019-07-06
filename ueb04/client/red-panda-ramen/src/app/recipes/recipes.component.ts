@@ -1,6 +1,5 @@
 import {Component, OnInit} from '@angular/core';
 
-import {RECIPES} from '../mock-recipes';
 import {Recipe} from '../recipe';
 import {RecipeService} from '../recipe.service';
 

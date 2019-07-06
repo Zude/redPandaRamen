@@ -3,7 +3,6 @@ import {Injectable} from '@angular/core';
 import {Observable, of} from 'rxjs';
 import {catchError, map, tap} from 'rxjs/operators';
 import {MessageService} from './message.service';
-import {RECIPES} from './mock-recipes';
 import {Recipe} from './recipe';
 
 const httpOptions = {
@@ -16,12 +15,12 @@ const httpOptions = {
   {}
 
   /** GET recipe by id. Will 404 if id not found */
-  getRecipe(id: number): Observable<Recipe>
+  getRecipe(rezeptName: string): Observable<Recipe>
   {
-    const url = `${this.recipesUrl}/${id}`;
+    const url = `${this.recipesUrl}/det?dts=${rezeptName}`;
     return this.http.get<Recipe>(url).pipe(
-      tap(_ => this.log(`fetched recipe id=${id}`)),
-      catchError(this.handleError<Recipe>(`getRecipe id=${id}`)));
+      tap(_ => this.log(`fetched recipe id=${rezeptName}`)),
+      catchError(this.handleError<Recipe>(`getRecipe id=${rezeptName}`)));
   }
 
   /** GET recipes from the server */
@@ -33,11 +32,20 @@ const httpOptions = {
   }
 
   /** PUT: update the recipe on the server */
-  updateRecipe(recipe: Recipe): Observable<any>
+  updateRecipe2(recipe: Recipe): Observable<any>
   {
     return this.http.put(this.recipesUrl, recipe, httpOptions)
-      .pipe(tap(_ => this.log(`updated recipe id=${recipe.id}`)),
+      .pipe(tap(_ => this.log(`updated recipe id=${recipe.rezeptName}`)),
             catchError(this.handleError<any>('updateRecipe')));
+  }
+  /** PUT: update the recipe on the server */
+  updateRecipe(recipe: Recipe): Observable<any>
+  {
+    const url = `${this.recipesUrl}/save`;
+    return this.http.post(url, JSON.stringify(recipe), httpOptions)
+      .pipe(tap(_ => this.log(`updated recipe id=${recipe.rezeptName}`)),
+            catchError(this.handleError<any>('updateRecipe')));
+    console.log("dudu", recipe);
   }
 
   /** Log a RecipeService message with the MessageService */

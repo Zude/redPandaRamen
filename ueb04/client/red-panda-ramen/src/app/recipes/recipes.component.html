@@ -2,8 +2,8 @@
 
 <ul class="recipes">
   <li *ngFor="let recipe of recipes">
-    <a routerLink="/detail/{{recipe.id}}">
-      <span class="badge">{{recipe.id}}</span> {{recipe.name}}
+    <a routerLink="/detail/{{recipe.rezeptName}}">
+      {{recipe.rezeptName}}
     </a>
   </li>
 </ul>

@@ -100,6 +100,25 @@
       "function": "deleteRecipe"
     }
 
+  }, {
+    "url": "/data/save",
+    "method": ["POST"],
+    "controller": {
+      "file": "pagecontroller",
+      "function": "saveRecipe"
+    }
+  },
+
+  {
+    "url": "/data/det",
+    "method": ["get"],
+    "controller": {
+      "file": "pagecontroller",
+      "function": "loadRecipeDataDetailAngular"
+    },
+    "params": {
+      "get": ["dts"]
+    }
   },
 
   {
