@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "Web-Anwendungen - Übung 01",
   "main": "server.js",
-  "scripts": {},
+  "scripts": {
+    "hello": "cd .. && cd client && cd red-panda-ramen && cp -rf /red-panda-ramen/dist/ /server/dist/"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
