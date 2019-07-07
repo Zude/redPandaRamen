@@ -1,10 +1,10 @@
 {
-  "name": "web-uebung-01",
+  "name": "web-uebung-04",
   "version": "1.0.0",
-  "description": "Web-Anwendungen - Übung 01",
+  "description": "Web-Anwendungen - Übung 04",
   "main": "server.js",
   "scripts": {
-    "hello": "cd .. && cd client && cd red-panda-ramen && cp -rf /red-panda-ramen/dist/ /server/dist/"
+    "build": " rm -rf dist && cd .. && cd client/red-panda-ramen && ng build --prod --base-href /admin && cd .. && cd .. && cd server && mv ../client/red-panda-ramen/dist ../server"
   },
   "keywords": [],
   "author": "",
