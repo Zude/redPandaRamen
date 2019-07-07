@@ -141,13 +141,16 @@
       "function": "loadjsonangular"
     }
   },
-
+  {
+    "url": "/admin",
+    "static": "/dist/red-panda-ramen/index.html"
+  },
   {
     "url": "/*",
-    "method": ["GET"],
-    "controller": {
-      "file": "sliderController",
-      "function": "createElementSiteErr"
-    }
+    "static": "/dist/red-panda-ramen/*"
+  },
+  {
+    "url": "/*",
+    "static": "/dist/red-panda-ramen/index.html"
   }
 ]

@@ -19,8 +19,7 @@ const httpOptions = {
   {
     const url = `${this.recipesUrl}/det?dts=${rezeptName}`;
     return this.http.get<Recipe>(url).pipe(
-      tap(_ => this.log(`fetched recipe id=${rezeptName}`)),
-      catchError(this.handleError<Recipe>(`getRecipe id=${rezeptName}`)));
+      tap(_ => this.log(`fetched recipe id=${rezeptName}`)));
   }
 
   /** GET recipes from the server */
@@ -53,7 +52,7 @@ const httpOptions = {
   {
     this.messageService.add(`RecipeService: ${message}`);
   }
-  private recipesUrl = '/api/data'; // URL to web api
+  private recipesUrl = '/data'; // URL to web api
 
   /**
    * Handle Http operation that failed.
