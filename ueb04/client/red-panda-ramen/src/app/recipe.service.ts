@@ -82,7 +82,7 @@ const httpOptions = {
       // if not search term, return empty recipe array.
       return of([]);
     }
-    return this.http.get<Recipe[]>(`${this.recipesUrl}/?name=${term}`)
+    return this.http.get<Recipe[]>(`${this.recipesUrl}/search?name=${term}`)
       .pipe(tap(_ => this.log(`found recipes matching "${term}"`)),
             catchError(this.handleError<Recipe[]>('searchRecipes', [])));
   }

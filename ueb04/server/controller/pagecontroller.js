@@ -89,7 +89,7 @@ module.exports = {
 
   },
 
-  //Controller function for opening recipeList Site and getting the recipe Data
+  //Controller function for saving admin name changes
   "saveRecipe": function (data) {
 
     const id = data.request.post.id;
@@ -97,12 +97,7 @@ module.exports = {
 
     const toLoad = fhwWeb.loadJson("recipeData");
 
-
-    const index = toLoad.indexOf(newName);
-
-
     if (toLoad != undefined) {
-      //toLoad[0].rezeptName = newName;
 
       toLoad.find(p => p.id.indexOf(id) >= 0).rezeptName = newName;
 
@@ -113,6 +108,28 @@ module.exports = {
       status: 200,
       json: toLoad
     }
+  },
+
+
+  //Load RecipeData into recipe details site
+  "dataSearch": function (data) {
+
+    const searchedName = data.request.get.name;
+    const recipe = fhwWeb.loadJson("recipeData");
+
+    const toLoad = fhwWeb.loadJson("recipeData").filter(p => p.rezeptName.indexOf(searchedName) >= 0);
+    let recipeDet = undefined;
+
+    if (toLoad != undefined && (toLoad.rezeptName === searchedName)) {
+      recipeDet = toLoad;
+    }
+
+
+    return {
+      status: 200,
+      json: toLoad
+    }
+
   }
 
 

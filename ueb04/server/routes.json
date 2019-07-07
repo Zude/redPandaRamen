@@ -122,6 +122,18 @@
   },
 
   {
+    "url": "/data/search",
+    "method": ["get"],
+    "controller": {
+      "file": "pagecontroller",
+      "function": "dataSearch"
+    },
+    "params": {
+      "get": ["name"]
+    }
+  },
+
+  {
     "url": "/data",
     "method": ["GET"],
     "controller": {
