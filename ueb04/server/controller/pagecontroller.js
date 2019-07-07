@@ -92,21 +92,26 @@ module.exports = {
   //Controller function for opening recipeList Site and getting the recipe Data
   "saveRecipe": function (data) {
 
-    const all = data.request.post;
+    const id = data.request.post.id;
+    const newName = data.request.post.rezeptName;
+
     const toLoad = fhwWeb.loadJson("recipeData");
 
 
-    const index = toLoad.indexOf(all);
+    const index = toLoad.indexOf(newName);
 
 
     if (toLoad != undefined) {
-      toLoad[0].rezeptName = "nein";
+      //toLoad[0].rezeptName = newName;
+
+      toLoad.find(p => p.id.indexOf(id) >= 0).rezeptName = newName;
+
       fhwWeb.saveJson('recipeData', toLoad);
     }
 
     return {
       status: 200,
-      json: all
+      json: toLoad
     }
   }
 

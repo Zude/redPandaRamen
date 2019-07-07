@@ -42,10 +42,10 @@ const httpOptions = {
   updateRecipe(recipe: Recipe): Observable<any>
   {
     const url = `${this.recipesUrl}/save`;
+    console.log(JSON.stringify(recipe));
     return this.http.post(url, JSON.stringify(recipe), httpOptions)
       .pipe(tap(_ => this.log(`updated recipe id=${recipe.rezeptName}`)),
             catchError(this.handleError<any>('updateRecipe')));
-    console.log("dudu", recipe);
   }
 
   /** Log a RecipeService message with the MessageService */

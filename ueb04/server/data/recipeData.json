@@ -1,6 +1,6 @@
-[
-	{
-		"rezeptName": "nein",
+[{
+		"rezeptName": "Ramelen",
+		"id": "1",
 		"rezeptBeschreibung": "Ramen mit Garnelen",
 		"rezeptTeaser": "Das Herz des Meeres",
 		"rezeptTags": [
@@ -13,8 +13,7 @@
 			"fruehstueck"
 		],
 		"rezeptPortionen": 4,
-		"rezeptZutaten": [
-			{
+		"rezeptZutaten": [{
 				"zutatenName": "Milch",
 				"zutatenMenge": 120,
 				"zutatenEinheit": "ml"
@@ -43,6 +42,7 @@
 	},
 	{
 		"rezeptName": "RamoBo",
+		"id": "2",
 		"rezeptBeschreibung": "Ramen mit frischen Kraeutern",
 		"rezeptTeaser": "Der Himmel der Limetten",
 		"rezeptTags": [
@@ -55,8 +55,7 @@
 			"Abend"
 		],
 		"rezeptPortionen": 4,
-		"rezeptZutaten": [
-			{
+		"rezeptZutaten": [{
 				"zutatenName": "Milch",
 				"zutatenMenge": 60,
 				"zutatenEinheit": "ml"
@@ -85,6 +84,7 @@
 	},
 	{
 		"rezeptName": "Ramurry",
+		"id": "3",
 		"rezeptBeschreibung": "mit gelbem oder gruenem Curry",
 		"rezeptTeaser": "Das gruende Wunder",
 		"rezeptTags": [
@@ -101,8 +101,7 @@
 			"Abend"
 		],
 		"rezeptPortionen": 4,
-		"rezeptZutaten": [
-			{
+		"rezeptZutaten": [{
 				"zutatenName": "Milch",
 				"zutatenMenge": 50,
 				"zutatenEinheit": "ml"
@@ -131,6 +130,7 @@
 	},
 	{
 		"rezeptName": "Ramurger",
+		"id": "4",
 		"rezeptBeschreibung": "mit Sesambroetchen auf Hackfleisch",
 		"rezeptTeaser": "Besser als Jim Block",
 		"rezeptTags": [
@@ -143,8 +143,7 @@
 			"mittag"
 		],
 		"rezeptPortionen": 2,
-		"rezeptZutaten": [
-			{
+		"rezeptZutaten": [{
 				"zutatenName": "Milch",
 				"zutatenMenge": 80,
 				"zutatenEinheit": "ml"
@@ -173,6 +172,7 @@
 	},
 	{
 		"rezeptName": "Ramuppe",
+		"id": "5",
 		"rezeptBeschreibung": "eine dampfende asiatische Nudelsuppe",
 		"rezeptTeaser": "Die Niere der asiatischen Kueche",
 		"rezeptTags": [
@@ -185,8 +185,7 @@
 			"fruehstueck"
 		],
 		"rezeptPortionen": 4,
-		"rezeptZutaten": [
-			{
+		"rezeptZutaten": [{
 				"zutatenName": "Milch",
 				"zutatenMenge": 70,
 				"zutatenEinheit": "ml"
@@ -215,6 +214,7 @@
 	},
 	{
 		"rezeptName": "UltraRamen",
+		"id": "6",
 		"rezeptBeschreibung": "Udon mit zartem Hackfleisch",
 		"rezeptTeaser": "Das superlativ der Ramen",
 		"rezeptTags": [
@@ -227,8 +227,7 @@
 			"Abend"
 		],
 		"rezeptPortionen": 4,
-		"rezeptZutaten": [
-			{
+		"rezeptZutaten": [{
 				"zutatenName": "Milch",
 				"zutatenMenge": 65,
 				"zutatenEinheit": "ml"
@@ -257,6 +256,7 @@
 	},
 	{
 		"rezeptName": "Zitramen",
+		"id": "7",
 		"rezeptBeschreibung": "mit frischer Schaerfe vom Zitronengras",
 		"rezeptTeaser": "das Gericht was Cercei liebt",
 		"rezeptTags": [
@@ -269,8 +269,7 @@
 			"fruehstueck"
 		],
 		"rezeptPortionen": 4,
-		"rezeptZutaten": [
-			{
+		"rezeptZutaten": [{
 				"zutatenName": "Milch",
 				"zutatenMenge": 40,
 				"zutatenEinheit": "ml"
@@ -299,6 +298,7 @@
 	},
 	{
 		"rezeptName": "Ramende",
+		"id": "8",
 		"rezeptBeschreibung": "mit Huenhnerbruehe und Lende",
 		"rezeptTeaser": "Die Suche nach gutem Essen ist hier zu Ende",
 		"rezeptTags": [
@@ -311,8 +311,7 @@
 			"Abend"
 		],
 		"rezeptPortionen": 3,
-		"rezeptZutaten": [
-			{
+		"rezeptZutaten": [{
 				"zutatenName": "Milch",
 				"zutatenMenge": 90,
 				"zutatenEinheit": "ml"
@@ -341,6 +340,7 @@
 	},
 	{
 		"rezeptName": "Ramoldino",
+		"id": "9",
 		"rezeptBeschreibung": "Ramen der sich im Ramen haelt",
 		"rezeptTeaser": "Das Herz liegt hier auf der Zunge",
 		"rezeptTags": [
@@ -353,8 +353,7 @@
 			"Abend"
 		],
 		"rezeptPortionen": 2,
-		"rezeptZutaten": [
-			{
+		"rezeptZutaten": [{
 				"zutatenName": "Milch",
 				"zutatenMenge": 100,
 				"zutatenEinheit": "ml"
@@ -383,6 +382,7 @@
 	},
 	{
 		"rezeptName": "Rameeren",
+		"id": "10",
 		"rezeptBeschreibung": "mit frischen ausersehenen Erdebeeren",
 		"rezeptTeaser": "Die rote Lust wird enfacht",
 		"rezeptTags": [
@@ -395,8 +395,7 @@
 			"Abend"
 		],
 		"rezeptPortionen": 4,
-		"rezeptZutaten": [
-			{
+		"rezeptZutaten": [{
 				"zutatenName": "Milch",
 				"zutatenMenge": 100,
 				"zutatenEinheit": "ml"
